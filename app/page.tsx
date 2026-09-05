@@ -277,6 +277,18 @@ export default function HomePage() {
           </div>
         )}
       </div>
+
+      <footer className="max-w-4xl mx-auto px-4 py-8 text-center">
+        <a href="https://thesaasdir.com/product/offermath?ref=badge" rel="dofollow">
+          <img 
+            src="https://thesaasdir.com/badge/offermath.svg" 
+            alt="Featured on TheSaaSDir" 
+            width={182} 
+            height={46}
+            className="inline-block"
+          />
+        </a>
+      </footer>
     </div>
   );
 }
