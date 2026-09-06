@@ -278,16 +278,19 @@ export default function HomePage() {
         )}
       </div>
 
-      <footer className="max-w-4xl mx-auto px-4 py-8 text-center space-y-4">
-        <div className="flex flex-wrap items-center justify-center gap-4">
+      <footer className="max-w-4xl mx-auto px-4 py-8">
+        <div className="flex flex-wrap justify-center items-center gap-4">
           <a href="https://thesaasdir.com/product/offermath?ref=badge" rel="dofollow">
-            <img
-              src="https://thesaasdir.com/badge/offermath.svg"
-              alt="Featured on TheSaaSDir"
-              width={182}
-              height={46}
-              className="inline-block"
-            />
+            <img src="https://thesaasdir.com/badge/offermath.svg" alt="Featured on TheSaaSDir" width="182" height="46" />
+          </a>
+          <a href="https://themicrosaasdir.com/product/offermath?ref=badge" rel="dofollow">
+            <img src="https://themicrosaasdir.com/badge/offermath.svg" alt="Featured on TheMicroSaaSDir" width="182" height="46" />
+          </a>
+          <a href="https://indielineup.com/product/offermath?ref=badge" rel="dofollow">
+            <img src="https://indielineup.com/badge/offermath.svg" alt="Featured on IndieLineup" width="182" height="46" />
+          </a>
+          <a href="https://saaslineup.com/product/offermath?ref=badge" rel="dofollow">
+            <img src="https://saaslineup.com/badge/offermath.svg" alt="Featured on SaaSLineup" width="182" height="46" />
           </a>
           <a
             href="https://www.promptfrenzy.com/directory"
@@ -301,7 +304,6 @@ export default function HomePage() {
               width={220}
               height={44}
               loading="lazy"
-              className="inline-block"
             />
           </a>
         </div>
