@@ -296,7 +296,7 @@ export default function HomePage() {
             title="Featured on PromptFrenzy AI Directory"
           >
             <img
-              src="https://www.promptfrenzy.com/badges/directory-mono-dark.svg"
+              src="https://www.promptfrenzy.com/badges/directory.svg"
               alt="Featured on PromptFrenzy AI Directory"
               width={220}
               height={44}
