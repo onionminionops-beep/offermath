@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import posthog from "posthog-js";
 import { OfferInput } from "@/lib/types";
 
 export default function HomePage() {
@@ -41,6 +42,11 @@ export default function HomePage() {
 
   const handleUnlock = async () => {
     try {
+      posthog.capture("checkout_started", {
+        product: "offermath",
+        total_comp: result?.totalCompPerYear,
+      });
+
       const response = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

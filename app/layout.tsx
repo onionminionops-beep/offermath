@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PostHogProvider } from "./providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased bg-slate-50">{children}</body>
+      <body className="antialiased bg-slate-50">
+        <PostHogProvider>{children}</PostHogProvider>
+      </body>
     </html>
   );
 }
