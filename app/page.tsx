@@ -292,6 +292,9 @@ export default function HomePage() {
           <a href="https://saaslineup.com/product/offermath?ref=badge" rel="dofollow">
             <img src="https://saaslineup.com/badge/offermath.svg" alt="Featured on SaaSLineup" width="182" height="46" />
           </a>
+          <a href="https://theaitoolsdir.com/product/offermath?ref=badge" rel="dofollow">
+            <img src="https://theaitoolsdir.com/badge/offermath.svg" alt="Featured on TheAIToolsDir" width="182" height="46" />
+          </a>
           <a
             href="https://www.promptfrenzy.com/directory"
             rel="noopener"
