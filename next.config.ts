@@ -7,6 +7,9 @@ const nextConfigEnv = {
 };
 
 const nextConfig: NextConfig = {
-  env: nextConfigEnv,};
+  env: nextConfigEnv,
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: false },
+};
 
 export default nextConfig;

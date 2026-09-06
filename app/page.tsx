@@ -42,8 +42,8 @@ export default function HomePage() {
 
   const handleUnlock = async () => {
     try {
-      const response = await posthog.capture("checkout_cta_clicked", { product: "OfferMath" });
-      fetch("/api/checkout", {
+      posthog.capture("checkout_cta_clicked", { product: "OfferMath" });
+      const response = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
       });
