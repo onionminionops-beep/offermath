@@ -278,16 +278,33 @@ export default function HomePage() {
         )}
       </div>
 
-      <footer className="max-w-4xl mx-auto px-4 py-8 text-center">
-        <a href="https://thesaasdir.com/product/offermath?ref=badge" rel="dofollow">
-          <img 
-            src="https://thesaasdir.com/badge/offermath.svg" 
-            alt="Featured on TheSaaSDir" 
-            width={182} 
-            height={46}
-            className="inline-block"
-          />
-        </a>
+      <footer className="max-w-4xl mx-auto px-4 py-8 text-center space-y-4">
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <a href="https://thesaasdir.com/product/offermath?ref=badge" rel="dofollow">
+            <img
+              src="https://thesaasdir.com/badge/offermath.svg"
+              alt="Featured on TheSaaSDir"
+              width={182}
+              height={46}
+              className="inline-block"
+            />
+          </a>
+          <a
+            href="https://www.promptfrenzy.com/directory"
+            rel="noopener"
+            target="_blank"
+            title="Featured on PromptFrenzy AI Directory"
+          >
+            <img
+              src="https://www.promptfrenzy.com/badges/directory-mono-dark.svg"
+              alt="Featured on PromptFrenzy AI Directory"
+              width={220}
+              height={44}
+              loading="lazy"
+              className="inline-block"
+            />
+          </a>
+        </div>
       </footer>
     </div>
   );
