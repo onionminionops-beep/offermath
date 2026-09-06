@@ -311,6 +311,46 @@ export default function HomePage() {
               loading="lazy"
             />
           </a>
+          <a
+            href="https://ainexfinder.com"
+            target="_blank"
+            rel="noopener"
+            title="Featured on AInexfinder"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '10px',
+              padding: '10px 14px',
+              background: '#7150E6',
+              border: '1px solid #6347D1',
+              borderRadius: '10px',
+              textDecoration: 'none',
+              fontFamily: 'ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif',
+              lineHeight: '1'
+            }}
+          >
+            <span
+              style={{
+                fontSize: '12px',
+                fontWeight: '600',
+                letterSpacing: '.06em',
+                textTransform: 'uppercase',
+                color: 'rgba(255,255,255,.85)'
+              }}
+            >
+              Featured on
+            </span>
+            <img
+              src="https://ainexfinder.com/brand/ainexfinder-logo-white.png"
+              alt="AInexfinder — AI Tools Directory"
+              height={22}
+              style={{
+                display: 'block',
+                height: '22px',
+                width: 'auto'
+              }}
+            />
+          </a>
         </div>
       </footer>
     </div>
